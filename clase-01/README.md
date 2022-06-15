@@ -69,3 +69,7 @@ Entoces, es un repositorio de git por proyecto. Una carpeta o repositorio
 ## Ver la diferencia que tengo en el WD y en el local repo
 
     git diff carpeta/archivo
+
+## Para ignorar un archivo en particular 
+
+    Creo el archivo .gitingnore Puede estare en la raiz o no.
