@@ -43,7 +43,10 @@ Entoces, es un repositorio de git por proyecto. Una carpeta o repositorio
     git config --local user.user "NombreDeUsuario"
     git config --local user.email "correoElectronicoVinculadoAGitHub@dominio.com"
 
+## Ver usuario configurado en la repo
 
+    git config --global -l // a veces traba la consola y salis con "q" (tambien brinda mucha informacion)
+    git config --global --get-regexp user  // solo brinda los datos de usuario
 ## Veo el estado de los archivos
 
     git status
