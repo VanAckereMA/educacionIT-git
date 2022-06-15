@@ -32,7 +32,18 @@ Entoces, es un repositorio de git por proyecto. Una carpeta o repositorio
 ## Comand ejemplo
      
      mkdir ccs js img; touch index.html css/estilo.css js/main.js
-    
+
+## configurar GIT
+
+    La configuracion global queda siempre configurada para todos los proyectos
+    git config --global user.user "NombreDeUsuario"
+    git config --global user.email "correoElectronicoVinculadoAGitHub@dominio.com"
+
+    Si creas una repo de git y queres configurar de manera local para esa repo.
+    git config --local user.user "NombreDeUsuario"
+    git config --local user.email "correoElectronicoVinculadoAGitHub@dominio.com"
+
+
 ## Veo el estado de los archivos
 
     git status
