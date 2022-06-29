@@ -64,7 +64,7 @@ Entoces, es un repositorio de git por proyecto. Una carpeta o repositorio
 
 ## Staging Area
 
-    Preserva y le deice a git que lo prepare para sacarle una foto.
+    Preserva y le dice a git que lo prepare para sacarle una foto.
 
 ## Ver la diferencia que tengo en el WD y en el local repo
 
