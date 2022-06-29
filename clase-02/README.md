@@ -28,3 +28,22 @@ Agregar algo que me olvide en el último commit
 
     git add . o <archivo>
     git commit --amend
+
+# TRABAJAR CON RAMAS
+
+## Creae una rama
+
+    git branch <nombreDeRama>
+
+## Mirar las ramas que tengo en el repositorio
+
+    git branch
+
+## ¿Cómo se en que rama estoy?
+
+en las consolas tipo Linux/unix, voy a tener al costado del path (dev, master, etc).
+Otra forma es con *git status*
+
+    git status
+    git branch
+
