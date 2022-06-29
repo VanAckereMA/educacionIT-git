@@ -21,6 +21,8 @@
 
 **MODIFIED** => Archivos que se encuentran en el repositorio pero difieren con los que se encuetran actualmente en el directorio de trabajo (Working Directory)
 
+![status_archivos](img/descarga.png)
+
 # Git amend
 Agregar algo que me olvide en el último commit
 
