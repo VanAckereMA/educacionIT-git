@@ -73,3 +73,7 @@ Entoces, es un repositorio de git por proyecto. Una carpeta o repositorio
 ## Para ignorar un archivo en particular 
 
     Creo el archivo .gitingnore Puede estare en la raiz o no.
+## Para mostrar los commits que he hecho 
+
+    git log
+    git log --oneline 
