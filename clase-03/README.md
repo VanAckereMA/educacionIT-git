@@ -29,3 +29,8 @@
 ## Detener el Merge
     
     git merge --abort
+
+## Si quiero crear una rama y moverme a esa rama
+
+    git checkout -b <nombre-rama>
+
