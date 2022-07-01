@@ -58,3 +58,10 @@ Otra forma es con *git status*
 ```sh
     git branch -D #Borra la rama en el caso de que no me deje por que no fue fusionada o mergeada
 ```
+## Subir rama al remoto
+
+    git push -u origin <nombre-rama>
+
+ejemplo:
+
+    git push -u origin dev
