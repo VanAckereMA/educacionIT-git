@@ -34,3 +34,22 @@
 
     git checkout -b <nombre-rama>
 
+# GIT GIST
+Para compartir snippets de codigo y documentar
+
+https://gist.github.com/
+
+## Cambiar editor por defecto 
+
+    git config --global core.editor "nano"
+    git config --global core.editor "code --wait"
+
+## Si quiero recuperar informacion del remoto
+es traerme solo la metadata de lo que ocurrio en el remoto.
+
+    git fetch
+
+## Para traerme las modificaciones
+
+    git pull
+
