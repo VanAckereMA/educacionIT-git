@@ -65,3 +65,11 @@ Otra forma es con *git status*
 ejemplo:
 
     git push -u origin dev
+
+## Merge
+
+**IMPORTANTE: Tengo que estar en la rama que va a recibir los cambios. Por ejemplo:
+
+Si quiero traerme a Master lo que tengo en Develop, tengo que estar en Master.
+    
+    git merge <Nombre-Rama>
