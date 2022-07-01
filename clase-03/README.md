@@ -24,4 +24,8 @@
 
 fast-forward: Fusión automatica de las ramas. 
 Recursiva: Union de ramas (No hay colisiones).
- Manual: Conflictos - Colisiones - vamos a tener que elegir nosotros con que cambios nos quedamos.
+Manual: Conflictos - Colisiones - vamos a tener que elegir nosotros con que cambios nos quedamos.
+
+## Si quiero crear una rama y moverme a esa rama
+
+    git checkout -b <nombre-rama>
