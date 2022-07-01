@@ -30,3 +30,7 @@ Nos sirven para marcar algun commit que tenga cierta importancia. Tambien me sir
     git tag -a v1.0.0 -m "Version 1.0.0 - Aplicacion funcionando"
 
     git tag -a v0.1.0 <HASH> -m "Version beta de nuestra aplicacion"
+
+### Para subir un TAG en particular
+
+    git push origin <tag-name>
