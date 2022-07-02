@@ -105,4 +105,20 @@ Nos sirven para marcar algun commit que tenga cierta importancia. Tambien me sir
 
 # GIT REFLOG    
 Un log de las referencias de todo lo que ha sucedido en el repositorio en ordenn cronologico (Historial).
+
     git reflog
+
+# GIT ALIAS
+
+## Crear alias
+
+    git config --global alias.ll "log --oneline --decorate --all --graph"
+    git config --global alias.l "log --oneline"
+
+## Listar alias
+
+    git config --get-regexp alias
+
+## Para borrar alias
+ 
+    git config --global --unset alias.ll
