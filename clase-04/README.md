@@ -66,4 +66,18 @@ Nos sirven para marcar algun commit que tenga cierta importancia. Tambien me sir
 
     git stash branch <nombre-rama>
 
-    
+# Trabajar con fork
+
+1. Fork
+2. Clone
+3. Configuro el remoto del repositorio original
+
+    git remote add upstream <url-remoto>
+
+4. Actualizar si fuera necesario mi fork con el repositorio original
+     
+    git pull upstream <rama>
+
+5. Tengo el local y para actualizar mi fork remoto.
+
+    git push origin main
