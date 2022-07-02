@@ -82,3 +82,27 @@ Nos sirven para marcar algun commit que tenga cierta importancia. Tambien me sir
 ```sh
     git push origin main
 ```
+
+# GIT RESET
+
+## Tipos de reset
+
+* soft. No destructivo
+```sh
+    git reset --soft <hash>
+```
+* Mixed. No destructivo. Saca todo del staged y los cambios quedan listos para el reset.
+```sh
+    git reset <hash> (por default cuando hacemos un reset es un mixed)
+```    
+```sh
+    git reset --mixed <hash>
+```
+* Hard. Destructivo. Peligroso, mucho cuidado.
+```sh
+    git reset --hard <hash>
+```
+
+# GIT REFLOG    
+Un log de las referencias de todo lo que ha sucedido en el repositorio en ordenn cronologico (Historial).
+    git reflog
