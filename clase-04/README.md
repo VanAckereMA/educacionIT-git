@@ -71,13 +71,14 @@ Nos sirven para marcar algun commit que tenga cierta importancia. Tambien me sir
 1. Fork
 2. Clone
 3. Configuro el remoto del repositorio original
-
+```sh
     git remote add upstream <url-remoto>
-
+```
 4. Actualizar si fuera necesario mi fork con el repositorio original
-     
+```sh
     git pull upstream <rama>
-
+```
 5. Tengo el local y para actualizar mi fork remoto.
-
+```sh
     git push origin main
+```
