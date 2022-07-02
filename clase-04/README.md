@@ -39,3 +39,31 @@ Nos sirven para marcar algun commit que tenga cierta importancia. Tambien me sir
 **IMPORTANTE**: Los archivos a commitiar tiene que estar en seguimiento, sino no se agregara al commit.
 
     git commit -am "Mensaje"
+
+# GIT STASH 
+
+### Creo un stash
+
+    git stash
+
+### Muestro la cajita de stashes
+
+    git stash list
+
+### Aplicar el ultimo stash
+
+    git stash pop
+    
+### Aplicar un stash en particular 
+
+    git stash apply stash@{n}
+
+### Borar un stash 
+
+    git stash drop stash@{n}
+
+## Para crear una rama a partir de un stash
+
+    git stash branch <nombre-rama>
+
+    
