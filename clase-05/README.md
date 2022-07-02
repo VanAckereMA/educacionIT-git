@@ -55,3 +55,10 @@ let variable = "Mundo"
 > Hola
 ```sh
 > hola
+```
+
+# Ejemplo de GIT RESET
+
+1. Agrego una parte de codigo
+2. Agrego otra linea de codigo
+3. agrego una linea más
