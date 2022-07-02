@@ -34,3 +34,8 @@ Nos sirven para marcar algun commit que tenga cierta importancia. Tambien me sir
 ### Para subir un TAG en particular
 
     git push origin <tag-name>
+
+## git add y commit en un comando
+**IMPORTANTE**: Los archivos a commitiar tiene que estar en seguimiento, sino no se agregara al commit.
+
+    git commit -am "Mensaje"
