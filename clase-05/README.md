@@ -77,3 +77,5 @@ Puedo crear un kanban y usar la metodologia scrum para ir colocando las tareas y
 * Unir commits
 * Separar commits 
 
+## ¿Como utilizo? lo mismo que el merge
+Tendo que estar en la rama a la cual quiero traerme los cambios. O sea si quiero traerme los cambios de <rama-rebase> a <master> tengo que estar parada en **master**
