@@ -92,8 +92,22 @@ Estando en la rama r-rebase. Hago git rebase master y sigo las instrucciones. Qu
 
 ## Rebase Interactivo
 
-git rebase -i <la-cantidad-hash-que-quiero-intervenir>
+    git rebase -i <la-cantidad-hash-que-quiero-intervenir>
 
 si quiero traerme 4 commit tengo que poner los siguiente
 
-git rebase HEAD~4
+    git rebase HEAD~4
+
+## Bisect
+
+Arranco 
+
+git bisect start
+
+git bisect good <hash-del-commit-que-considero-que-funsiona>
+
+git bisect bad
+
+basado en la prueba de mi codigo
+
+git bisect bad o git bisect good
