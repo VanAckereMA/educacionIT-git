@@ -79,3 +79,21 @@ Puedo crear un kanban y usar la metodologia scrum para ir colocando las tareas y
 
 ## ¿Como utilizo? lo mismo que el merge
 Tendo que estar en la rama a la cual quiero traerme los cambios. O sea si quiero traerme los cambios de <rama-rebase> a <master> tengo que estar parada en **master**
+
+## Ejecutando rebase 
+
+Estando en la rama r-rebase. Hago git rebase master y sigo las instrucciones. Que seria arreglar los conflictos, confirmar ( git add .; git commit -m "mensaje") y luego git rebase --continue 
+
+    git rebase master
+
+    git rebase --continue
+
+    git rebase --abort 
+
+## Rebase Interactivo
+
+git rebase -i <la-cantidad-hash-que-quiero-intervenir>
+
+si quiero traerme 4 commit tengo que poner los siguiente
+
+git rebase HEAD~4
