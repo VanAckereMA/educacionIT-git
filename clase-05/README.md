@@ -62,3 +62,6 @@ let variable = "Mundo"
 1. Agrego una parte de codigo
 2. Agrego otra linea de codigo
 3. agrego una linea más
+
+## GTIHUB issues
+Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a tener su codigo
