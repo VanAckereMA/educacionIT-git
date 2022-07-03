@@ -65,3 +65,6 @@ let variable = "Mundo"
 
 ## GTIHUB issues
 Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a tener su codigo
+
+## GITHUB projets
+Puedo crear un kanban y usar la metodologia scrum para ir colocando las tareas y resolviendolas.
